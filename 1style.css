@@ -33,7 +33,7 @@ a{
 
                                                             /*NAVAR*/
 nav{
-     position: fixed;        /* stays at top while scrolling */
+     position: fixed;        
     top: 0;
     left: 0;
     width: 100%;
@@ -44,9 +44,9 @@ nav{
     padding: 0 50px;
     height: 100px;
 
-     background: rgba(255, 255, 255, 0.05);  /* transparent */
-    backdrop-filter: blur(10px);             /* glass blur effect */
-    -webkit-backdrop-filter: blur(10px);     /* safari support */
+     background: rgba(255, 255, 255, 0.05);  
+    backdrop-filter: blur(10px);            
+    -webkit-backdrop-filter: blur(10px);    
 
     z-index: 999;  /* stays above everything */
     border-bottom: 1px solid rgba(255,255,255,0.1);
@@ -103,9 +103,7 @@ nav .right a span {
     gap:50px;
     margin-bottom: 100px;
     
-   /* background: linear-gradient(to right, #eef2ff, #ffffff);
-    
-    border-radius: 12px;*/
+
 
 
 }
@@ -156,14 +154,7 @@ nav .right a span {
     justify-content: right;
    
 }
-/*.hero-section .headshot img {
 
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
-      /* yahan value kam ya zyada kar sakte ho 
-    border-radius: 50%;
-} */
  .hero-section .headshot img {
     height: 400px;
     width: 400px;
@@ -369,18 +360,17 @@ nav .right a span {
         border-radius: 6px;
     }
 
-    /* hide text labels so only logos remain */
+   
     .skill-section .cells .cell span{
         display: none;
     }
 
-    /* slightly increase logo so it stays visible */
     .skill-section .cells .cell img{
         width: 44px;
         height: 44px;
     }
 
-    /* center the cells grid better on narrow screens */
+    
     .skill-section .cells{
         gap: 8px;
     }
@@ -448,3 +438,4 @@ nav .right a span {
     main {
     margin-top: 100px;
 }
+
